@@ -1,3 +1,24 @@
-# linePostMessage
-https://developers.line.biz/ja/reference/messaging-api/#text-message <br>
-https://developers.line.biz/ja/docs/messaging-api/message-types/
+# LineメッセージAPIの雛形を作りました．
+メッセージAPIのプッシュのみに対応しており、アクセストークンなどや送信先のuserIdは事前に発行してください．<br>
+対応したメッセージは下記になります．<br>
+- テキストメッセージ
+- スタンプメッセージ
+- 画像メッセージ
+- 動画メッセージ
+- 音声メッセージ
+- 位置情報メッセージ
+- <s>イメージマップメッセージ</s>
+- テンプレートメッセージ
+- Flex Message
+<br>
+
+### 所感
+イメージマップメッセージは自分が使用するつもりがないので作っていないです．テキストメッセージで送るのも良いですが、やはりテンプレートが良い感じがしました．
+
+### 参考したサイト
+
+https://developers.line.biz/ja/reference/messaging-api/
+
+### Github
+
+https://github.com/taoka3/linePostMessage
